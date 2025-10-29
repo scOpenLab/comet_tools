@@ -81,7 +81,7 @@ if __name__ == "__main__":
         ).compute(),
         moving_thumbnail=c2r.read_level_channels(
             THUMBNAIL_LEVEL,
-            1,
+            0,
         ).compute(),
         ref_thumbnail_down_factor=c1r.level_downsamples[THUMBNAIL_LEVEL]
         / c1r.level_downsamples[LEVEL],
